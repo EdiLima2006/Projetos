@@ -1,3 +1,73 @@
+:root{
+
+  /* FUNDOS */
+  --fundo-principal: #D6E4F0;
+  --fundo-secundario: #BCD2E8;
+
+  /* MAIN / CARDS */
+  --branco: #FFFFFF;
+
+  /* CORES PRINCIPAIS */
+  --cor-primaria: #2581eb;
+  --cor-primaria-escura: #1E3A8A;
+  --cor-primaria-escuraa: #004680;
+
+  /* TEXTOS */
+  --texto-principal: #1F2937;
+  --texto-secundario: #6B7280;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}
 html {
   scroll-behavior: smooth;
 }
+body{
+  background-color: var(--fundo-principal);
+}
+header{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom,var(--cor-primaria), var(--cor-primaria-escuraa));
+  padding: 20px;
+}
+header h1{
+  color: var(--branco);
+  text-align: center;
+  margin-bottom: 20px;
+}
+header > p{
+  color: var(--branco);
+  text-align: center;
+}
+nav{
+
+}
+nav a {
+  color: var(--fundo-principal);
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover{
+  color: var(--fundo-principal);
+  text-decoration: underline;
+  
+}
+main{
+  background-color: var(--branco);
+  width: 950px;
+  padding: 20px;
+  margin: auto;
+}
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--texto-principal);
+  color: var(--branco);
+  padding: 5px;
+  text-align: center;
+}
+img{
+  width: 950px;
+}
+
